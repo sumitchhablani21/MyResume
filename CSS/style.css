@@ -1,0 +1,274 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .first {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 85px;
+  }
+  
+  h1 {
+    font-size: 4.5rem;
+    margin: 21px;
+  }
+  
+  .background {
+    background-image: url(../imgs/bg.jpeg);
+    background-size: cover;
+    background-color: grey;
+  }
+  
+  .starting {
+    font-family: "Sacramento", cursive;
+    font-size: 2.6rem;
+  }
+  
+  .pro {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 1.8rem;
+  }
+  
+  .second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .head1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: rgb(42 188 190);
+    margin: 29px 0 0 0;
+  }
+  
+  .profile img {
+    height: 191px;
+    border-radius: 100px;
+  }
+  
+  hr {
+    border: dotted 6px;
+    border-bottom: none;
+    width: 4%;
+    border-color: #8b8b8b;
+    margin: 89px auto;
+  }
+  
+  .skills {
+    text-align: center;
+    justify-items: center;
+    background-color: #e0e0e0;
+    padding: 33px 0;
+  }
+  
+  .one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 65px auto;
+  }
+  
+  .one img {
+    height: 221px;
+    margin: 0 34px;
+  }
+  
+  .paras {
+    margin: 31px 0px;
+  }
+  
+  .paras .head {
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    color: rgb(0, 139, 139);
+  }
+  
+  .paras .content {
+    font-size: 20px;
+    width: 30vw;
+    margin: 20px;
+    padding: 10px;
+    font-family: "Old Standard TT", serif;
+    text-align: justify;
+  }
+  
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .head2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+    color: rgb(0, 139, 139);
+    margin: 47px 0 28px 0;
+  }
+  
+  .contact .content {
+    font-size: 20px;
+    width: 30vw;
+    margin: 25px;
+    font-family: "Old Standard TT", serif;
+    text-align: center;
+  }
+  
+  .btn {
+    font-size: 21px;
+    border-radius: 6px;
+    background-color: #05a1a1;
+    padding: 9px;
+    width: 14%;
+  }
+  
+  .btn:hover {
+    background-color: #039494;
+    cursor: pointer;
+  }
+  
+  .btn a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 24px;
+  }
+  
+  footer {
+    background-color: #ebebeb;
+    height: 29vh;
+    text-align: center;
+    margin: 80px 0 0 0;
+  }
+  
+  footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer ul li {
+    margin: 68px 84px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  footer .logo{
+      width: 18px;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: rgb(5, 200, 210);
+  }
+  
+  footer ul li a:hover {
+    color: rgb(1, 150, 150);
+  }
+  
+  .cr {
+    font-size: 18px;
+    color: #747474;
+  }
+  
+  .second .content {
+    font-size: 24px;
+    width: 43vw;
+    margin: 25px;
+    font-family: "Old Standard TT", serif;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .first {
+      width: 100vw;
+      height: 66vh;
+    }
+  
+    .one {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .one .content {
+      text-align: justify;
+      margin: 10px auto;
+      width: 307px;
+    }
+  
+    .head2 {
+      text-align: center;
+      margin: 19px auto 0px auto;
+      width: 91%;
+    }
+  
+    .contact .content {
+      text-align: center;
+      margin: 38px auto;
+      width: 253px;
+    }
+  
+    .btn {
+      width: 43%;
+    }
+  
+    footer {
+      height: 18vh;
+    }
+  
+    footer ul {
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+    }
+  
+    footer ul li {
+      margin: 6px auto;
+      font-size: 16px;
+    }
+  
+    .cr {
+      margin-top: 4px;
+    }
+  }
+  
+  @media only screen and (max-width: 430px) {
+    .first {
+      height: 70vh;
+    }
+  
+    .starting h1 {
+      font-size: 3.8rem;
+    }
+  
+    footer {
+      height: 26vh;
+    }
+  
+    .head2 {
+      width: 59%;
+    }
+  }
+  
+  @media only screen and (max-width: 370px) {
+    .starting h1 {
+      font-size: 3.7rem;
+    }
+    .first {
+      height: 70vh;
+      width: 103%;
+    }
+    .btn {
+      width: 45%;
+    }
+  }
+  
